@@ -1,4 +1,4 @@
-[## Inleiding](02. Spring Core.md)
+![## Inleiding](02. Spring Core.md)
 
 Hier is stapsgewijs leer materiaal voor Spring en Spring Boot:
 
