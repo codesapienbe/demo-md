@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"type":"group","id":"2c2b2d8724031be3","x":-1080,"y":600,"width":2240,"height":500,"label":"Flow - Signup"},
+		{"type":"group","id":"68fe778b6b46843b","x":-1080,"y":1200,"width":2240,"height":459,"label":"Flow - Update Profile"},
+		{"type":"group","id":"0744c9773a391ad0","x":-1080,"y":1840,"width":2240,"height":459,"label":"Flow - Update Tags"},
+		{"type":"group","id":"9429271386fd5079","x":-1080,"y":2480,"width":2240,"height":459,"label":"Flow - Get Articles"},
+		{"type":"text","text":"### FRONTEND HACKERNOON","id":"83c42ca7428cca66","x":-1041,"y":660,"width":362,"height":60},
+		{"type":"file","file":"INTEC/Lesmaterialen/Java EE Notebooks/13 - HTML CSS en JavaScript/src/hackernoon_step_01.png","id":"63b5266079b3b6d3","x":-1060,"y":811,"width":400,"height":218},
+		{"type":"text","text":"### REST API HACKERNOON","id":"4f4fc66f46ec30c9","x":-546,"y":660,"width":346,"height":60},
+		{"type":"text","text":"POST\nhttps://api.hackernoon.com/v1/signup\n```json\n{\n   \"email\": \"dev@mail.be\",\n   \"pass\": \"1234\"\n}\n```\n","id":"d5101c60918941f8","x":-546,"y":811,"width":346,"height":218},
+		{"type":"text","text":"### FRONTEND HACKERNOON","id":"13014d02bc4db35e","x":-1041,"y":1260,"width":362,"height":60},
+		{"type":"text","text":"### REST API HACKERNOON","id":"60c9703f87512b91","x":-546,"y":1260,"width":346,"height":60},
+		{"type":"text","text":"### BACKEND HACKERNOON","id":"e6305452c9105cbd","x":-28,"y":660,"width":348,"height":60},
+		{"type":"text","text":"```java\n@RestController\n@RequestMapping(\"api/v1/users\")\npublic class UserController {\n    @Autowired\n    private UserService userService;\n\n    @PostMapping(\"/signup\")\n    public UserResponse createUserApi(@RequestBody CreateUserReq req ){\n        return userService.create(req);\n    }\n} \n```","id":"cb193f9d036586d2","x":-26,"y":760,"width":1146,"height":299},
+		{"type":"text","text":"```java\n@RestController\n@RequestMapping(\"api/v1/users\")\npublic class UserController {\n    @Autowired\n    private UserService userService;\n\n    @PutMapping(\"/profile/{user_id}\")\n    public UserResponse updateUserProfileApi( @PathVariable(\"user_id\") Long userId, @RequestBody UpdateUserProfileReq req ){\n        return userService.update(req);\n    }\n} \n```","id":"a0cd6f7cfe30dcc7","x":-26,"y":1340,"width":1146,"height":299},
+		{"type":"text","text":"### BACKEND HACKERNOON","id":"d64b37b58b33fa72","x":-28,"y":1260,"width":348,"height":60},
+		{"type":"text","text":"PUT\nhttps://api.hackernoon.com/v1/profile/123\n```json\n{\n   \"full_name\": \"Yilmaz Mustafa\",\n   \"github_username\": \"codesapienbe\"\n}\n```\n","id":"454be78cd0a35a7f","x":-546,"y":1377,"width":426,"height":225},
+		{"type":"file","file":"INTEC/Lesmaterialen/Java EE Notebooks/13 - HTML CSS en JavaScript/src/hackernoon_step_02.png","id":"02047501dc791b30","x":-1060,"y":1377,"width":399,"height":225},
+		{"type":"text","text":"PUT\nhttps://api.hackernoon.com/v1/profile/tags/123\n\n```json\n{\n   \"tags\":  [\n        \"blockchain\",\n        \"artificial_intelligence\",\n        \"machine_learning\"\n   ]\n}\n```\n","id":"ea23b773786354e0","x":-546,"y":1989,"width":426,"height":280},
+		{"type":"text","text":"```java\n@RestController\n@RequestMapping(\"api/v1/users\")\npublic class UserController {\n    @Autowired\n    private UserService userService;\n\n    @PutMapping(\"/profile/tags/{user_id}\")\n    public UserResponse updateUserTagsApi( @PathVariable(\"user_id\") Long userId, @RequestBody UpdateTagsReq req ){\n        return userService.update(req);\n    }\n} \n```","id":"4625595e9d38f856","x":-26,"y":1980,"width":1146,"height":299},
+		{"type":"text","text":"### FRONTEND HACKERNOON","id":"b230019b4624e207","x":-1039,"y":1880,"width":362,"height":60},
+		{"type":"text","text":"### REST API HACKERNOON","id":"da6910aeb10b83a3","x":-544,"y":1880,"width":346,"height":60},
+		{"type":"text","text":"### BACKEND HACKERNOON","id":"1088ec125dc5b829","x":-26,"y":1880,"width":348,"height":60},
+		{"type":"file","file":"INTEC/Lesmaterialen/Java EE Notebooks/13 - HTML CSS en JavaScript/src/hackernoon_step_03.png","id":"5841846a1f1a1ae0","x":-1060,"y":2009,"width":400,"height":230},
+		{"type":"text","text":"GET\nhttps://api.hackernoon.com/v1/articles\n\n","id":"4e13dd7d4c35062f","x":-546,"y":2726,"width":426,"height":87},
+		{"type":"text","text":"```java\n@RestController\n@RequestMapping(\"api/v1/articles\")\npublic class ArticleController {\n    @Autowired\n    private ArticleService articleService;\n\n    @GetMapping(\"/all\")\n    public List<ArticleResponse> getAllArticlesApi( ){\n        return articleService.readAll();\n    }\n} \n```","id":"d31039fd92fc1327","x":-26,"y":2620,"width":1146,"height":299},
+		{"type":"file","file":"INTEC/Lesmaterialen/Java EE Notebooks/13 - HTML CSS en JavaScript/src/hackernoon_step_04.png","id":"faf9f237ec52c0ff","x":-1060,"y":2656,"width":400,"height":226},
+		{"type":"text","text":"### FRONTEND HACKERNOON","id":"fa885c2b6f5f3f80","x":-1022,"y":2520,"width":362,"height":60},
+		{"type":"text","text":"### REST API HACKERNOON","id":"c428ff8a615fc446","x":-527,"y":2520,"width":346,"height":60},
+		{"type":"text","text":"### BACKEND HACKERNOON","id":"44a25f13383a7f82","x":-9,"y":2520,"width":348,"height":60}
+	],
+	"edges":[
+		{"id":"ab20b202fcc04fce","fromNode":"63b5266079b3b6d3","fromSide":"right","toNode":"d5101c60918941f8","toSide":"left"},
+		{"id":"4998b9a012ca3814","fromNode":"d5101c60918941f8","fromSide":"right","toNode":"cb193f9d036586d2","toSide":"left"},
+		{"id":"f03956528fbb63cc","fromNode":"02047501dc791b30","fromSide":"right","toNode":"454be78cd0a35a7f","toSide":"left"},
+		{"id":"7c531d4e596c2b40","fromNode":"454be78cd0a35a7f","fromSide":"right","toNode":"a0cd6f7cfe30dcc7","toSide":"left"},
+		{"id":"971a2ae619ed8148","fromNode":"faf9f237ec52c0ff","fromSide":"right","toNode":"4e13dd7d4c35062f","toSide":"left"},
+		{"id":"732fe4a565607540","fromNode":"4e13dd7d4c35062f","fromSide":"right","toNode":"d31039fd92fc1327","toSide":"left"}
+	]
+}
