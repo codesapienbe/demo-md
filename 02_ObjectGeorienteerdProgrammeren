@@ -1,0 +1,60 @@
+## Inleiding tot objectgeoriënteerd programmeren
+
+Begrijpen wat objectgeoriënteerd programmeren (OOP) is en waarom het wordt gebruikt.
+Leren over de basisconcepten van OOP, zoals objecten, klassen, en eigenschappen en methoden.
+Het verschil begrijpen tussen procedureel programmeren en OOP.
+
+## Klassen en objecten
+
+Het begrijpen van wat klassen en objecten zijn in Java.
+Leren hoe objecten worden gemaakt en gedefinieerd vanuit klassen.
+Begrijpen hoe toegang wordt verkregen tot objecteigenschappen en -methoden.
+
+## Overerving
+
+Begrijpen wat overerving is en hoe het werkt in Java.
+Leren hoe onderklassen en superklassen worden gemaakt.
+Begrijpen hoe overerving wordt gebruikt om code te hergebruiken en complexere programma's te maken.
+
+## Polymorfisme
+
+Het begrijpen van wat polymorfisme is en hoe het werkt in Java.
+Leren hoe polymorfisme wordt gebruikt om een enkele methode te gebruiken voor verschillende soorten objecten.
+Begrijpen hoe polymorfisme de leesbaarheid en het onderhoud van de code kan verbeteren.
+
+## Abstractie
+
+Het begr## ijpen van wat abstractie is en hoe het werkt in Java.
+Leren hoe abstracte klassen en methoden worden gemaakt.
+Begrijpen hoe abstractie kan worden gebruikt om de complexiteit van een programma te verminderen en de modulariteit te verbeteren.
+
+## Interfaces
+
+Het begrijpen van wat interfaces zijn en hoe ze worden gebruikt in Java.
+Leren hoe interfaces worden gedeclareerd en geïmplementeerd.
+Begrijpen hoe interfaces kunnen worden gebruikt om een consistente en uniforme interface voor verschillende klassen te bieden.
+
+## Encapsulation
+
+Het begrijpen van wat encapsulatie is en hoe het werkt in Java.
+Leren hoe gegevens worden verborgen in Java-klassen.
+Begrijpen hoe encapsulatie kan worden gebruikt om de veiligheid en stabiliteit van een programma te verbeteren.
+
+## Exceptions
+
+Het begrijpen van wat exceptions zijn en hoe ze worden gebruikt in Java.
+Leren hoe uitzonderingen worden gegenereerd en afgehandeld in Java-programma's.
+Begrijpen hoe uitzonderingen kunnen worden gebruikt om fouten in de uitvoering van een programma op te vangen en af te handelen.
+
+## Collections
+
+Het begrijpen van wat collecties zijn en hoe ze worden gebruikt in Java.
+Leren over de verschillende soorten collecties in Java, zoals lists, sets en maps.
+Begrijpen hoe collecties kunnen worden gebruikt om gegevens te beheren en te organiseren in een programma.
+
+## Multithreading
+
+Het begrijpen van wat multithreading is en hoe het werkt in Java.
+Leren hoe threads worden gemaakt en gecontroleerd in Java-programma's.
+Begrijpen hoe multithreading kan worden gebruikt om taken parallel
+
